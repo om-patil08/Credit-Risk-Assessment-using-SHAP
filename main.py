@@ -65,4 +65,4 @@ def predict(data: LoanApplication):
     }
 
 
-app.mount("/", StaticFiles(directory="static", html=True), name="static")
+app.mount("/", StaticFiles(directory="Static", html=True), name="static")
